@@ -58,7 +58,7 @@ def main():
     model_name = "llava"
 
     # Define the folder containing your images
-    image_folder = "/home/agarzon/GIT/experiments/ollama-dataset/images"
+    image_folder = "./images"
 
     process_images(image_folder, model_name, api_url)
     print("All images processed.")
